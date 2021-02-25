@@ -5,4 +5,5 @@ arr=($POD_NAMES)
 for pod in "${arr[@]}"
 do
     kubectl exec -it $pod -n ticket-generator -- touch /error
+# adding a comment for testing
 done
