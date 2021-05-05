@@ -1,3 +1,4 @@
+#test the merge process
 kind: Namespace
 apiVersion: v1
 metadata:
