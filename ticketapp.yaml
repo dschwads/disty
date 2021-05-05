@@ -34,7 +34,7 @@ kind: Service
 metadata:
   labels:
     app: ticket-backend
-  name: ticket-service
+  name: ticket-serv
   namespace: ticket-generator
 spec:
   ports:
